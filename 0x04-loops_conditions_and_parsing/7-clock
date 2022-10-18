@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # display time 
 hour=0
-while [ $hour -ne 25 ]
+while [ $hour -ne 13 ]
 do
 	echo "Hour: $hour"
 	minutes=1
