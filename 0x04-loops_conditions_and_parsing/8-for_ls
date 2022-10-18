@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#Display current directory files
+files_="$(ls)"
+for file_ in $files_
+do
+	echo "$file_"
+done
+
