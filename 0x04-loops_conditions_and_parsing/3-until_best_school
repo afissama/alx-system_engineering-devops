@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# This script is displaying "Best School" 10 times
+# Using Until
+
+pos=0
+until [ $pos -eq 10 ]
+do
+	echo "Best School"
+	(( "pos = pos + 1" ))
+done
+
