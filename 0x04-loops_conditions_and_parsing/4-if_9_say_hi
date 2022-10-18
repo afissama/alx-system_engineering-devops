@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# This script is displaying "Best School" 10 times
+
+pos=0
+while [ $pos -ne 10 ]
+do
+	if [ $pos -eq 9 ]
+	then
+		echo "Hi"
+	fi
+	echo "Best School"
+	(("pos = pos + 1"))
+done
+
