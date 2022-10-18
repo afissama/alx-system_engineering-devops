@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# This script is displaying "Best School" 10 times
+pos=0
+while [ $pos -ne 10 ]
+do
+	echo "Best School"
+	(("pos = pos + 1"))
+done
+
