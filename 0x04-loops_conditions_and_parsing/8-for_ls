@@ -3,6 +3,7 @@
 files_="$(ls)"
 for file_ in $files_
 do
-	echo "$file_"
+	
+	echo "$file_" | cut -d "-" -f 2
 done
 
