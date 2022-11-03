@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+#Displays all acive IPV4 Ips
+
+ifconfig -a | grep "inet " | cut -d " " -f10
+
